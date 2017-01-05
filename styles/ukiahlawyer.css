@@ -73,6 +73,11 @@ dd {
   width: 50%;
   float: left;
 }
+dd:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*
 ** Page layout blocks / IDs
